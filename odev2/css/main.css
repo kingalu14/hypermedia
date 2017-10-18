@@ -1,0 +1,51 @@
+
+.wrapper{margin: 0px !important; padding: 0px !important;}
+.contents{
+    background-color: #61122F;
+    width: 100% !important;
+    height: 100%!important;
+    float:left;
+    position:absolute;
+    top:50px;
+    z-index: -10}
+.navbar-right li a{color:#61122F !important;font-weight: bold }
+.navbar-brand{margin: 0 !important;width:100px !important;float: left}
+.logo-text{float: none;text-align: left;width: 200px;margin: -20px 20px;padding: 0 5px !important}
+.logo-text h2{font-size:10px; color: #23527c}
+.logo{float: left;margin-left: 0}
+.logo img{width: 47px; height: 47px; margin-top: -15px}
+.navbar-default{
+    background-color:#6495ED !important;
+    width: 100% !important;
+    height:50px;
+}
+.navbar-collapse{z-index:1; background-color:#6495ED !important;}
+.navbar-collapse li a{text-align: center !important}
+.navbar-collapse li:hover{background-color:#61122F !important;}
+.navbar-collapse li:hover  a{color: white !important;}
+
+
+/****************************************for mobile phone*******************************************************/
+@media only screen and (max-width :360px){
+
+}
+@media screen and (max-width: 750px) and (min-width: 360px) {
+    .navbar-default{
+        background-color:#6495ED !important;
+        width: 100% !important;
+        height:50px;
+    }
+}
+/*****************************************for desktop******************************************************/
+@media only screen and (min-width :750px){
+    .navbar-brand{margin: 0 !important;width:500px !important;float: left}
+    .navbar-default{
+        background-color:#6495ED !important;
+        width: 100% !important;
+        height:150px;
+    }
+    .navbar-header{width: 560px}
+    .logo img{width:95px; height: 95px; margin-top: 0}
+    .logo-text{float: none;width: 385px;margin: 23px 90px !important;}
+    .logo-text h2{font-size:20px;margin: 0 10px;}
+}
