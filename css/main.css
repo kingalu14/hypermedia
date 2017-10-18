@@ -1,0 +1,29 @@
+/*** Wrapper ***
+** is our page container**/
+#wrapper{width:100%; height: auto; position: relative;}
+
+/**************************************element css*********************************************************/
+.menu-title{position:relative;float: right;color: white; background-color: blueviolet; font-size: 1.5rem; padding: 5px}
+.heading{width: 100%; text-align: center; font-size: 2rem;}
+.menu-aciklama{margin: 40px 10px}
+.menu-aciklama p{font-size: 1.2rem}
+/**
+***box1 box2 box3 these our menu contents
+ **/
+/**************************************for tablet*********************************************************/
+    #box1{width: 100%;height:auto; background-color: coral; float: left; margin-top: 10px; margin-bottom: 20px}
+    #box2{width: 49%;height: auto;background-color: chartreuse; float: left;}
+    #box3{width: 49%;height: auto;background-color: aquamarine; float: right}
+
+/****************************************for mobile phone*******************************************************/
+@media only screen and (max-width :360px){
+    #box1{width: 100%;height: auto; background-color: coral; float: left}
+    #box2{width: 100%;height: auto;background-color: chartreuse; float: left; margin-left:0%}
+    #box3{width: 100%;height: auto;background-color: aquamarine; float: right; margin-top: 10px}
+}
+/*****************************************for desktop******************************************************/
+@media only screen and (min-width :750px){
+    #box1{width: 32.33%;height: auto;background-color: coral; float: left; position: relative;margin-left: 20px;margin-top:0px;margin-bottom: 20px}
+    #box2{width: 32.33%;height: auto;background-color: chartreuse; float: left; margin-left:0%; position: relative}
+    #box3{width: 32.33%;height: auto;background-color: aquamarine; float: right; position: relative;}
+}
