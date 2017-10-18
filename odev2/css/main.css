@@ -1,34 +1,25 @@
 
 .wrapper{margin: 0px !important; padding: 0px !important;}
-.contents{
-    background-color: #61122F;
-    width: 100% !important;
-    height: 100%!important;
-    float:left;
-    position:absolute;
-    top:50px;
-    z-index: -10}
+
+
+/****************************************for mobile and default style*******************************************************/
+.contents{background-color: #61122F;width: 100% !important; height: 100%!important; float:left;position:absolute;
+    top:50px; z-index: -10}
 .navbar-right li a{color:#61122F !important;font-weight: bold }
 .navbar-brand{margin: 0 !important;width:100px !important;float: left}
 .logo-text{float: none;text-align: left;width: 200px;margin: -20px 20px;padding: 0 5px !important}
 .logo-text h2{font-size:10px; color: #23527c}
 .logo{float: left;margin-left: 0}
 .logo img{width: 47px; height: 47px; margin-top: -15px}
-.navbar-default{
-    background-color:#6495ED !important;
-    width: 100% !important;
-    height:50px;
-}
+/*************style for dropdown menu on mobile and change style for default bootstrap navbar********************/
+.navbar-default{background-color:#6495ED !important;width: 100% !important;height:50px;  }
 .navbar-collapse{z-index:1; background-color:#6495ED !important;}
 .navbar-collapse li a{text-align: center !important}
 .navbar-collapse li:hover{background-color:#61122F !important;}
 .navbar-collapse li:hover  a{color: white !important;}
 
 
-/****************************************for mobile phone*******************************************************/
-@media only screen and (max-width :360px){
-
-}
+/****************************************for tablet*******************************************************/
 @media screen and (max-width: 750px) and (min-width: 360px) {
     .navbar-default{
         background-color:#6495ED !important;
