@@ -17,6 +17,8 @@
 .navbar-collapse li a{text-align: center !important}
 .navbar-collapse li:hover{background-color:#61122F !important;}
 .navbar-collapse li:hover  a{color: white !important;}
+.navbar-toggle{background-color:#6495ED !important; border-color:#61122F !important}
+.icon-bar{background-color:#61122F !important}
 
 
 /****************************************for tablet*******************************************************/
