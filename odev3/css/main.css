@@ -3,8 +3,8 @@
 
 
 /****************************************for mobile and default style*******************************************************/
-.contents{background-color: #61122F;width: 100% !important; height: 100%!important; float:left;position:absolute;
-    top:50px; z-index: -10}
+.contents{background-color: #ffffff;width: 100% !important; height:100%!important; float:left;position:relative;
+    top:0px; z-index: -10}
 .navbar-right li a{color:#61122F !important;font-weight: bold }
 .navbar-brand{margin: 0 !important;width:100px !important;float: left}
 .logo-text{float: none;text-align: left;width: 200px;margin: -20px 20px;padding: 0 5px !important}
@@ -20,6 +20,10 @@
 .navbar-toggle{background-color:#6495ED !important; border-color:#61122F !important}
 .icon-bar{background-color:#61122F !important}
 
+.duyur{margin: 0 auto}
+.duyur-inner h5{text-align: center; font-size: 2em; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif}
+.thumbnail{border: none !important;border-radius: 0 !important;}
+.footer{background-color: #424647; margin-top:400px; color: white}
 
 /****************************************for tablet*******************************************************/
 @media screen and (max-width: 750px) and (min-width: 360px) {
@@ -36,6 +40,7 @@
         background-color:#6495ED !important;
         width: 100% !important;
         height:150px;
+        margin: 0 !important;
     }
     .navbar-header{width: 560px}
     .logo img{width:95px; height: 95px; margin-top: 0}
@@ -43,4 +48,7 @@
     .logo-text h2{font-size:20px;margin: 0 10px;}
     .slider{margin: 0 auto; width: 100%; height: 400px}
     .slider img{width: 100%; height: 400px}
+    .footer{margin-top:450px !important;}
+    .duyur-inner{width:1170px !important; height: auto;margin: 0 auto !important}
+    .duyur-inner img{width:400px;height: 350px}
 }
