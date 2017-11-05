@@ -1,0 +1,42 @@
+
+.wrapper{margin: 0px !important; padding: 0px !important;}
+h2{color:#0C6241; font-size: 2em }
+
+.box1{height: auto; background-color: coral; float: left}
+.box2{height: auto;background-color: chartreuse; float: left; margin-left:0%; margin-top: 10px}
+.box3{wheight: auto;background-color: aquamarine; float: right; margin-top: 10px}
+/****************************************for mobile and default style*******************************************************/
+.contents{background-color:white;width: 100% !important; height: 100%!important; float:left;position:absolute;
+    top:50px; z-index: -10}
+.navbar-right li a{color:#61122F !important;font-weight: bold }
+.logo-text{float: none;text-align: left;width: 200px;margin: -20px 20px;padding: 0 5px !important}
+.menuler h2{text-align:center;font-size:2em; color: #0C6241}
+/*************style for dropdown menu on mobile and change style for default bootstrap navbar********************/
+.navbar-default{background-color:#FAC313 !important}
+.navbar-collapse{z-index:1; background-color:#FAC313 !important;}
+.navbar-collapse li a{text-align: center !important}
+.navbar-collapse li:hover{background-color:#61122F !important;}
+.navbar-collapse li:hover  a{color: white !important;}
+.navbar-toggle{background-color:#FAC313 !important; border-color:#61122F !important}
+.icon-bar{background-color:#61122F !important}
+
+/****************************************menuler*******************************************************/
+.menu_outer{top:0 ;width:100%; height:100%;float: left}
+/****************************************for tablet*******************************************************/
+@media screen and (max-width: 800px) and (min-width: 500px) {
+    .box3{width: 100%;height:auto; background-color: coral; float: left; margin-top: 10px; margin-bottom: 20px}
+    .box1{width: 49%;height: auto;background-color: chartreuse; float: left;}
+    .box2{width: 49%;height: auto;background-color: aquamarine; float: right}
+}
+/*****************************************for desktop******************************************************/
+@media only screen and (min-width :750px){
+    .navbar-default{background-color:#FAC313 !important; width: 100% !important;}
+    .logo-text{float: none;width: 385px;margin: 23px 100px !important;}
+    .logo-text h2{font-size:2.0em;margin: 0 10px;}
+    .menu_outer{margin: 0 auto;position:relative; }
+    .menu_inner{width:1200px;height:auto;margin: 0 auto;position:relative; }
+
+    .box1{width: 32.33%;height: auto;margin-top: 0px}
+    .box2{width: 32.33%;height: auto;margin-top: 0px;margin-left:20px}
+    .box3{width: 32.33%;height: auto;margin-top: 0px;margin-top: 2px}
+}
