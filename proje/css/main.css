@@ -1,0 +1,119 @@
+body{font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;}
+h1{font-size: 2em}
+h2{font-size: 1.5em}
+h3{font-size: 0.80em}
+a{color: black}
+a:visited{color:black}
+a:hover{color:#1b6d85}
+.fa-facebook-official{color: #2e6da4}
+.fa-linkedin-square{color: #5bc0de}
+.fa-twitter-square{color: #5bc0de}
+.fa-youtube-play{color:red}
+.linkler i{font-size:25px; margin: 5px 0; color: white}
+.sosyal i{font-size:25px; margin:0 4px;}
+.wrapper{margin: 0px !important; padding: 0px !important;}
+/****************************************for mobile and default style*******************************************************/
+.contents{background-color: #ffffff;width: 100% !important; height:100%!important; float:left;position:relative;
+    top:0px; z-index: -10}
+.navbar-right li a{color:#61122F !important;font-weight: bold }
+.navbar-brand{margin: 0 !important;width:100px !important;float: left}
+.logo-text{float: none;text-align: left;width: 200px;margin: -20px 20px;padding: 0 5px !important}
+.logo-text h2{font-size:10px; color: #23527c}
+.logo{float: left;margin-left: 0}
+.logo img{width: 47px; height: 47px; margin-top: -15px}
+
+/*************style for dropdown menu on mobile and change style for default bootstrap navbar********************/
+.navbar-default{background-color:#85B8FF !important;width: 100% !important;height:50px;  }
+.navbar-collapse{z-index:1; background-color:#85B8FF !important;}
+.navbar-collapse li a{text-align: center !important}
+.navbar-collapse li:hover{background-color:#61122F !important;}
+.navbar-collapse li:hover  a{color: white !important;}
+.navbar-toggle{background-color:#85B8FF!important; border-color:#61122F !important}
+.icon-bar{background-color:#61122F !important}
+
+/*************style for app contents loaded via ajax********************/
+#app{height: auto}
+.app-outer{background-color:#e3e3e3 !important;width:100% !important; height: auto;margin:0px auto !important}
+.app-inner{}
+.app-inner h5{text-align: center; font-size: 2em; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif}
+#title{text-align: center; border-bottom: 1px dashed #85B8FF;}
+.duyur{margin:30px auto}
+.duyur-inner h5{text-align: center; font-size: 2em; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif}
+
+/*************style for bottom contents  before footer ********************/
+.bottom-outer-content{width: 100%;margin: 0px !important;padding-top:20px;padding-bottom:0px; float: left; background-color:#85B8FF }
+.bottom-inner-content h5{text-align: center; font-size: 2em; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif}
+
+/*************style for menu like thumbnails photo  ********************/
+.thumbnail{border: none !important;border-radius: 0 !important;}
+.thumbnail h3{font-size: 3em; text-align: center; margin: auto 0}
+.thumbnail-title{position:absolute;background:#cecece;width:98%;bottom:0px;opacity:0.9;cursor:pointer !important;}
+
+/*************style for menu like thumbnails photo for egitim ********************/
+.thumb-resize{margin: 10px 30px}
+.thumb-content{float:left;margin-left:5px;width:124px}
+.thumb-content span{font-size: 11px; padding-top: 2px; padding-right: 3px}
+.thumb-img{float:left}
+.thumb-img img{width: 100px !important;height: 100px !important;}
+
+
+.app-content{background-color: #cecece;}
+.app-content h1{text-align: center}
+#error{margin: 0 auto; text-align: center; color: red; font-weight: bold; font-size: 20px}
+.harita{bottom:0px !important}
+.footer{background-color: #424647; margin-top:0px; color: white}
+.linkler table {border: none}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .linkler table td{text-align: center}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .navbar-default{
+        background-color:#85B8FF !important;
+        width: 100% !important;
+        height:50px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .navbar-brand{margin: 0 !important;width:500px !important;float: left}
+    .navbar-default{
+        background-color:#85B8FF !important;
+        width: 100% !important;
+        height:150px;
+        margin: 0 !important;
+    }
+    .navbar-header{width: 560px}
+    /***********************************logo  css***********************/
+    .logo img{width:95px; height: 95px; margin-top: 0}
+    .logo-text{float: none;width: 385px;margin: 23px 90px !important;}
+    .logo-text h2{font-size:20px;margin: 0 10px;}
+    .slider{margin: 0 auto; width: 960px; height: 400px}
+    .slider img{width: 100%; height: 400px}
+
+    /***********************************thumb css***********************/
+    .thumbnail{height: 200px}
+    .thumbnail img{height: 250px}
+    .thumb-resize{width: 415px}
+    .thumb-marginizer{margin: 0px;height: 109px !important;}
+    .footer-inner{width:960px !important;margin:0 auto}
+
+    .duyur-inner{width:960px !important; height: auto;margin: 0 auto !important}
+    .duyur-inner img{width:400px;height:195px}
+    .app-inner{width:960px !important; height: auto;margin: 0 auto !important; text-align: center}
+    .app-inner img{width:400px;height:195px}
+    /***********************************bottom menu like thumbs css***********************/
+    .bottom-inner-content{width:960px !important; height: auto;margin: 0 auto !important}
+    .bottom-inner-content img{width:400px;height:195px}
+    .myTable {width: 960px !important; margin: 0 auto}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+
