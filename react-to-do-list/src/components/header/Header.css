@@ -1,0 +1,11 @@
+.Header{
+    border: 2px dashed green;
+    width: 100%;
+    margin: 0 auto;
+    background-color: salmon;
+}
+.Header h1{
+    font-family: "Arial Rounded MT Bold";
+    font-size: 2em;
+    color: green;
+}
