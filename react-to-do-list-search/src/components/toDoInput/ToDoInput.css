@@ -1,0 +1,6 @@
+/**styling to do container**/
+.container{width:700px;margin:20px auto;padding: 20px;  }
+/**styling for input text and button**/
+input {width: 350px; height: 30px}
+button{cursor: pointer; width: 100px; height: 35px; margin: 0 10px; background-color: green; border: none; color: white;font-size: 15px}
+button:hover{opacity: 0.8}
